@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Hume IP Services Pte. Ltd. — Intellectual Property Agency in Singapore.">
+<title>Hume IP Services — Intellectual Property</title>
+<style>
+:root{
+  --ink:#17212b; --muted:#66717c; --line:#dfe4e8;
+  --paper:#fbfaf7; --accent:#173f5f; --accent2:#c89b5a;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+a{color:inherit}
+.container{width:min(1080px,calc(100% - 44px));margin:auto}
+header{border-bottom:1px solid var(--line);background:rgba(251,250,247,.94);position:sticky;top:0;z-index:10;backdrop-filter:blur(12px)}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.brand{font-family:Georgia,serif;letter-spacing:.08em;font-size:15px;font-weight:700}
+.nav a{text-decoration:none;color:var(--muted);font-size:14px;margin-left:24px}
+.nav a:hover{color:var(--ink)}
+.hero{padding:105px 0 95px;background:linear-gradient(135deg,#f8f6f1 0%,#fff 58%,#f2f5f6 100%)}
+.hero-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:70px;align-items:end}
+.kicker{color:var(--accent2);font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
+h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.12}
+h1{font-size:clamp(44px,6vw,72px);margin:16px 0 24px;max-width:760px}
+.lead{font-size:20px;color:#46515b;max-width:680px}
+.contact-card{border-left:3px solid var(--accent2);padding:12px 0 12px 25px}
+.contact-card strong{display:block;font-family:Georgia,serif;font-size:20px;margin-bottom:8px}
+.contact-card a{text-decoration:none;color:var(--accent)}
+section{padding:90px 0;border-bottom:1px solid var(--line)}
+.section-grid{display:grid;grid-template-columns:.65fr 1.35fr;gap:70px}
+h2{font-size:42px;margin:0 0 20px}
+.intro{font-size:18px;color:#4d5862}
+.services{display:grid;grid-template-columns:1fr 1fr;gap:0 42px}
+.service{padding:23px 0;border-top:1px solid var(--line)}
+.service strong{display:block;font-family:Georgia,serif;font-size:19px;margin-bottom:6px}
+.service p{margin:0;color:var(--muted);font-size:15px}
+.profile{display:grid;grid-template-columns:260px 1fr;gap:58px;align-items:start}
+.photo{aspect-ratio:4/5;border:1px solid var(--line);background:#e9ecec;display:flex;align-items:center;justify-content:center;color:#899198;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.name{font-family:Georgia,serif;font-size:31px;margin:0 0 12px}
+.bio{color:#4d5862}
+.columns{display:grid;grid-template-columns:1fr 1fr;gap:50px;margin-top:35px}
+.subhead{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:800;margin-bottom:12px}
+ul{padding-left:19px;margin-top:8px}
+li{margin:5px 0;color:#4d5862}
+footer{padding:55px 0 65px;background:#16212a;color:#e9edf0}
+.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:end}
+footer .small{color:#aeb7be;font-size:13px}
+footer a{color:#fff;text-decoration:none}
+@media(max-width:760px){
+ .nav{min-height:68px}.nav a{display:none}
+ .hero{padding:75px 0}.hero-grid,.section-grid,.profile{grid-template-columns:1fr;gap:35px}
+ section{padding:65px 0} h2{font-size:36px}
+ .services,.columns{grid-template-columns:1fr}
+ .profile{gap:28px}.photo{max-width:240px}
+ .footer-grid{display:block}.footer-grid > * + *{margin-top:20px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand">HUME IP SERVICES</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#director">Director</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="kicker">Intellectual Property Agency · Singapore</div>
+      <h1>Practical IP counsel for brands and businesses.</h1>
+      <p class="lead">Hume IP Services Pte. Ltd. assists domestic and foreign stakeholders in the field of trademarks, designs, patents and IP transactions across Singapore, Asia, Europe and beyond.</p>
+    </div>
+    <aside class="contact-card" id="contact">
+      <strong>Hume IP Services Pte. Ltd.</strong>
+      <div>32 Pekin Street, #05-01<br>Singapore 048762</div>
+      <div style="margin-top:12px"><a href="mailto:francois@humeip.com">francois@humeip.com</a></div>
+    </aside>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container section-grid">
+    <div>
+      <div class="kicker">What we do</div>
+      <h2>Key services</h2>
+      <p class="intro">Focused support throughout the life of intellectual property rights and related transactions.</p>
+    </div>
+    <div class="services">
+      <div class="service">
+        <strong>Trademark prosecution</strong>
+        <p>Singapore, Asia, Europe and beyond: filing applications, availability searches, responses to office actions, renewals, recording of changes and assignments, and related work.</p>
+      </div>
+      <div class="service">
+        <strong>Trademark disputes</strong>
+        <p>Oppositions, cancellation and invalidation actions.</p>
+      </div>
+      <div class="service">
+        <strong>IP contracts</strong>
+        <p>Advice and support on intellectual property contracts.</p>
+      </div>
+      <div class="service">
+        <strong>Design prosecution</strong>
+        <p>Design prosecution in Singapore and worldwide.</p>
+      </div>
+      <div class="service">
+        <strong>Patent renewals</strong>
+        <p>Patent renewal services in Singapore.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="director">
+  <div class="container">
+    <div class="kicker">Director</div>
+    <div class="profile" style="margin-top:28px">
+      <div class="photo">Photo</div>
+      <div>
+        <p class="name">Francois Vieillescazes</p>
+        <p class="bio">Francois Vieillescazes is an Intellectual Property attorney with 20 years’ experience in the field of trademarks, designs, patents, and IP transactions in Singapore and Asia.</p>
+        <p class="bio">After starting his career as a litigation lawyer in Paris, Francois joined the IP Department of a large law firm in Korea, worked for law firms in Singapore, and headed the Shanghai office of a French IP firm. He has worked as an independent IP Consultant in Singapore since 2018.</p>
+        <div class="columns">
+          <div>
+            <div class="subhead">Education & qualifications</div>
+            <ul>
+              <li>Admitted to the Bar (France)</li>
+              <li>Master of Laws (LLM), University of London</li>
+              <li>Postgraduation in Law, University of Paris</li>
+              <li>Member of the Institute of Singapore Trade Mark Agents</li>
+            </ul>
+          </div>
+          <div>
+            <div class="subhead">Languages</div>
+            <p class="bio">English · French · Spanish · Korean</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <div class="brand">HUME IP SERVICES PTE. LTD.</div>
+      <div class="small" style="margin-top:8px">Intellectual Property · Singapore</div>
+    </div>
+    <div class="small"><a href="mailto:francois@humeip.com">francois@humeip.com</a><br>32 Pekin Street, #05-01 · Singapore 048762</div>
+  </div>
+</footer>
+</body>
+</html>
