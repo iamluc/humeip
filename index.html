@@ -28,7 +28,7 @@ header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdro
 .nav a:hover{color:var(--purple)}
 .hero{padding:88px 0 72px;background:linear-gradient(135deg,#fff 0%,#fff 52%,#f6f3ff 100%);border-bottom:1px solid var(--line)}
 .hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:70px;align-items:center}
-.hero-logo{width:min(430px,100%);height:auto;display:block;margin-bottom:30px}
+.hero-logo{width:270px;max-width:72%;height:auto;display:block;margin:0 0 28px}
 .eyebrow{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
 .company{font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.2;margin:0 0 10px}
 .address{color:var(--muted);font-size:16px}
@@ -70,7 +70,7 @@ footer a{color:#fff;text-decoration:none}
 <body>
 <header>
   <div class="container nav">
-    <a href="#top" aria-label="Hume IP Services home"><img src="images/logo.png" alt="Hume IP Services" class="brand-logo"></a>
+    <div class="brand">HUME IP SERVICES</div>
     <nav>
       <a href="#services">Services</a>
       <a href="#director">Director</a>
@@ -83,16 +83,14 @@ footer a{color:#fff;text-decoration:none}
 <section class="hero">
   <div class="container hero-grid">
     <div>
+      <div class="eyebrow">Intellectual Property Agency · Singapore</div>
       <img src="images/logo.png" alt="Hume IP Services Pte. Ltd." class="hero-logo">
-      <div class="company">Hume IP Services Pte. Ltd.</div>
-      <div class="address">32 Pekin Street, #05-01<br>Singapore 048762</div>
-      <div class="singapore-note">An Intellectual Property Agency incorporated in Singapore in 2024, assisting domestic and foreign stakeholders in the field of trademarks.</div>
+      <p class="lead">Hume IP Services Pte. Ltd. assists domestic and foreign stakeholders in the field of trademarks, designs, patents and IP transactions across Singapore, Asia, Europe and beyond.</p>
     </div>
     <aside class="contact-card" id="contact">
-      <div class="eyebrow">Contact</div>
-      <strong>Francois Vieillescazes</strong>
-      <div><a href="mailto:francois@humeip.com">francois@humeip.com</a></div>
-      <div style="margin-top:10px;color:var(--muted)">Singapore · Asia · Europe and beyond</div>
+      <strong>Hume IP Services Pte. Ltd.</strong>
+      <div>32 Pekin Street, #05-01<br>Singapore 048762</div>
+      <div style="margin-top:12px"><a href="mailto:francois@humeip.com">francois@humeip.com</a></div>
     </aside>
   </div>
 </section>
